@@ -16,7 +16,7 @@ This is a simple Java application for managing a book collection. The applicatio
 - Servlets and JSP for the web interface
 - JDBC for database connectivity
 
-### Prerequisites
+## Prerequisites
 
 - Java Development Kit (JDK)
 - MySQL Database
