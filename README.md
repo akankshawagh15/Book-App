@@ -22,7 +22,7 @@ This is a simple Java application for managing a book collection. The applicatio
 - MySQL Database
 - Apache Tomcat
 
-##Create database book
+## Create database book
 
 - create table bookdata
 - column [ ID, BOOKNAME, BOOKEDITION, BOOKPRICE] create in bookdata
