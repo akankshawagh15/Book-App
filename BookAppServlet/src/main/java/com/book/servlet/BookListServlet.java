@@ -30,7 +30,7 @@ public class BookListServlet extends HttpServlet {
             cnf.printStackTrace();
         }
         //generate the connection
-        try (Connection con = DriverManager.getConnection("jdbc:mysql:///book", "root", "Gauri@2020#"); PreparedStatement ps = con.prepareStatement(query);) {
+        try (Connection con = DriverManager.getConnection("jdbc:mysql:///book", "root", "password"); PreparedStatement ps = con.prepareStatement(query);) {
             ResultSet rs = ps.executeQuery();
             pw.println("<table border='1' align='center'>");
             pw.println("<tr>");
